@@ -10,16 +10,15 @@ The principle of object detection and monitoring is based on data accepted by bo
 The main idea will be like a human following robot but the one that we will be building will carry luggage etc for the user.
 
 
-# How it will look like
-Our project will look like
+# How it will look
 
-➼ A Robot with two front omni wheels and two rear normal tetrix wheels
-
-
-➼ Rear wheeled drive
+➼ Two front omni wheels and two rear normal tetrix wheels
 
 
-➼ U-Channel stand for holding the brain (The electronics)
+➼ Rear-wheel drive
+
+
+➼ U-Channel stand for holding the electronics
 
 
 ➼ A custom designed case for the electronics
