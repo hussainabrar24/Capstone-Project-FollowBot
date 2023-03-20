@@ -6,28 +6,37 @@
 
 // pin setup
 
-int trigPin1 = 8;
-int echoPin1 = A2;
+    int trigPin1 = 8;
 
-int trigPin2 = 9;
-int echoPin2 = A3;
+    int echoPin1 = A2;
 
-int trigPin3 = 10;
-int echoPin3 = A4;
+    int trigPin2 = 9;
 
-int led1 = 11;
-int led2 = 12;
-int led3 = 13;
+    int echoPin2 = A3;
+
+    int trigPin3 = 10;
+    
+    int echoPin3 = A4;
+
+    int led1 = 11;
+
+    int led2 = 12;
+
+    int led3 = 13;
 
 // distance variables
 
-long duration1, distance1;
-long duration2, distance2;
-long duration3, distance3;
+    long duration1, distance1;
 
-int disPin = A0;
-int dis;
-int setdis;
+    long duration2, distance2;
+    
+    long duration3, distance3;
+
+    int disPin = A0;
+    
+    int dis;
+
+    int setdis;
 
     void setup() {
   
