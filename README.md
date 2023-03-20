@@ -12,8 +12,17 @@ The main idea will be like a human following robot but the one that we will be b
 
 # How it will look like
 Our project will look like
+
 ➼ A Robot with two front omni wheels and two rear normal tetrix wheels
+
+
 ➼ Rear wheeled drive
+
+
 ➼ U-Channel stand for holding the brain (The electronics)
+
+
 ➼ A custom designed case for the electronics
+
+
 ➼ Cardboard for the base with a tetrix channel as a support
