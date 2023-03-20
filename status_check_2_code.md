@@ -1,8 +1,10 @@
+//We are not using the servo yet.
 //#include <Servo.h>
 
 //Servo topservo;
 
 // pin setup
+
 int trigPin1 = 8;
 int echoPin1 = A2;
 
@@ -17,6 +19,7 @@ int led2 = 12;
 int led3 = 13;
 
 // distance variables
+
 long duration1, distance1;
 long duration2, distance2;
 long duration3, distance3;
@@ -25,35 +28,44 @@ int disPin = A0;
 int dis;
 int setdis;
 
-void setup() {
-  Serial.begin(9600);
+    void setup() {
+  
+  //Useful for debugging
+  
+     Serial.begin(9600);
   
   //topservo.attach(A1);
   //topservo.write(90);
   
-  pinMode(trigPin1, OUTPUT);
-  pinMode(echoPin1, INPUT);
+    pinMode(trigPin1, OUTPUT);
+    pinMode(echoPin1, INPUT);
+    
+    pinMode(trigPin2, OUTPUT);
+    pinMode(echoPin2, INPUT);
   
-  pinMode(trigPin2, OUTPUT);
-  pinMode(echoPin2, INPUT);
+    pinMode(trigPin3, OUTPUT);
+    pinMode(echoPin3, INPUT);
+    
+    pinMode(led1, OUTPUT);
+    pinMode(led2, OUTPUT);
+    pinMode(led3, OUTPUT);
   
-  pinMode(trigPin3, OUTPUT);
-  pinMode(echoPin3, INPUT);
+  //potentiometer pin
   
-  pinMode(led1, OUTPUT);
-  pinMode(led2, OUTPUT);
-  pinMode(led3, OUTPUT);
-  pinMode(disPin,INPUT);
+    pinMode(disPin,INPUT);
   
 }
 
-void loop() {
-  // redefine potentiometer values into distance variables
-  dis = analogRead(disPin);
-  setdis = map(dis, 0, 1023, 5, 90);
-  Serial.println(setdis);
+    void loop() {
+
+  // redefine potentiometer values into distance variables that will determine the "Sight" of the robot. It sets a threshhold for the values.
   
-  // front sensor
+    dis = analogRead(disPin);
+    setdis = map(dis, 0, 1023, 5, 90);
+    Serial.println(setdis);
+  
+  // front distance sensor value
+  
     digitalWrite(trigPin1, LOW);
     delayMicroseconds(2);
     digitalWrite(trigPin1, HIGH);
@@ -73,14 +85,15 @@ void loop() {
       digitalWrite(led2, LOW);
     }
     
-  // left sensor
-    digitalWrite(trigPin2, LOW);
-    delayMicroseconds(2);
-    digitalWrite(trigPin2, HIGH);
-    delayMicroseconds(10);
-    digitalWrite(trigPin2, LOW);
-    duration2 = pulseIn(echoPin2, HIGH);
-    distance2 = (duration2/2) / 74;
+  // left distance sensor value
+      
+      digitalWrite(trigPin2, LOW);
+      delayMicroseconds(2);
+      digitalWrite(trigPin2, HIGH);
+      delayMicroseconds(10);
+      digitalWrite(trigPin2, LOW);
+      duration2 = pulseIn(echoPin2, HIGH);
+      distance2 = (duration2/2) / 74;
     
     if (distance2 <= setdis) {
       digitalWrite(led1, LOW);
@@ -93,7 +106,8 @@ void loop() {
       digitalWrite(led2, LOW);
     }
     
-  // right sensor
+  // right distance sensor value
+  
     digitalWrite(trigPin3, LOW);
     delayMicroseconds(2);
     digitalWrite(trigPin3, HIGH);
@@ -112,4 +126,4 @@ void loop() {
       digitalWrite(led1, LOW);
       digitalWrite(led2, LOW);
     }
-}
+    }
