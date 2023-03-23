@@ -44,6 +44,8 @@
   
      Serial.begin(9600);
   
+  //Servo pins and setup that we won't use just yet. 
+        
   //topservo.attach(A1);
   //topservo.write(90);
   
@@ -60,7 +62,7 @@
     pinMode(led2, OUTPUT);
     pinMode(led3, OUTPUT);
   
-  //potentiometer pin
+  //potentiometer pin set as input
   
     pinMode(disPin,INPUT);
   
