@@ -1,141 +1,94 @@
-//We are not using the servo yet.
+//motor pin setup
+int motor1pin1 = 2;
+int motor1pin2 = 4;
+int motor1pin3 = 3;
 
-//#include <Servo.h>
+int motor2pin1 = 6;
+int motor2pin2 = 7;
+int motor2pin3 = 5;
 
-//Servo topservo;
+// sensor pin setup
+int trigPin = 8;
+int echoPin = A5;
 
-// pin setup
-
-    int trigPin1 = 8;
-
-    int echoPin1 = A2;
-
-    int trigPin2 = 9;
-
-    int echoPin2 = A3;
-
-    int trigPin3 = 10;
-    
-    int echoPin3 = A4;
-
-    int led1 = 11;
-
-    int led2 = 12;
-
-    int led3 = 13;
+int LED1 = 11;
+int LED2 = 12;
+int LED3 = 13;
 
 // distance variables
+long duration, distance;
 
-    long duration1, distance1;
+int disPin = A0;
+int dis;
+int setdis;
 
-    long duration2, distance2;
-    
-    long duration3, distance3;
+void setup() {
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  
+  pinMode(motor1pin1, OUTPUT);
+  pinMode(motor1pin2, OUTPUT);
+  pinMode(motor1pin3, OUTPUT);
+  
+  pinMode(motor2pin1, OUTPUT);
+  pinMode(motor2pin2, OUTPUT);
+  pinMode(motor2pin3, OUTPUT);
+  
+  pinMode(LED1, OUTPUT);
+  pinMode(LED2, OUTPUT);
+  pinMode(LED3, OUTPUT);
+  pinMode(disPin,INPUT);
+  
+  Serial.begin(9600);
+}
 
-    int disPin = A0;
-    
-    int dis;
-
-    int setdis;
-
-    void setup() {
+void loop() {
+  // redefine potentiometer values into distance variables 
+  dis = analogRead(disPin);
+  setdis = map(dis, 0, 1023, 5, 90); //actually 5-83 for some reason
+  Serial.println(setdis);
   
-  //Useful for debugging
+  if(setdis >= 65){
+    digitalWrite(LED1, HIGH);
+    digitalWrite(LED2, HIGH);
+    digitalWrite(LED3, HIGH);
+  }
+  else if(setdis >= 30 && setdis <= 64){
+    digitalWrite(LED1, HIGH);
+    digitalWrite(LED2, HIGH);
+    digitalWrite(LED3, LOW);
+  }
+  else if(setdis >= 5 && setdis <= 29){
+    digitalWrite(LED1, HIGH);
+    digitalWrite(LED2, HIGH);
+    digitalWrite(LED3, LOW);
+  }
   
-     Serial.begin(9600);
-  
-  //Servo pins and setup that we won't use just yet. 
-        
-  //topservo.attach(A1);
-  //topservo.write(90);
-  
-    pinMode(trigPin1, OUTPUT);
-    pinMode(echoPin1, INPUT);
-    
-    pinMode(trigPin2, OUTPUT);
-    pinMode(echoPin2, INPUT);
-  
-    pinMode(trigPin3, OUTPUT);
-    pinMode(echoPin3, INPUT);
-    
-    pinMode(led1, OUTPUT);
-    pinMode(led2, OUTPUT);
-    pinMode(led3, OUTPUT);
-  
-  //potentiometer pin set as input
-  
-    pinMode(disPin,INPUT);
-  
-    }
-
-    void loop() {
-
-  // redefine potentiometer values into distance variables that will determine the "Sight" of the robot. It sets a threshhold for the values.
-  
-    dis = analogRead(disPin);
-    setdis = map(dis, 0, 1023, 5, 90);
-    Serial.println(setdis);
-  
-  // front distance sensor value
-  
-    digitalWrite(trigPin1, LOW);
+  //Sensor
+    digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
-    digitalWrite(trigPin1, HIGH);
+    digitalWrite(trigPin, HIGH);
     delayMicroseconds(10);
-    digitalWrite(trigPin1, LOW);
-    duration1 = pulseIn(echoPin1, HIGH);
-    distance1 = (duration1/2) / 74;
+    digitalWrite(trigPin, LOW);
+    duration = pulseIn(echoPin, HIGH);
+    distance = (duration/2) / 74;
     
-    if (distance1 <= setdis) {
-      digitalWrite(led1, HIGH);
-      digitalWrite(led2, LOW);
-      digitalWrite(led3, LOW);
-    }
-    else {
-      digitalWrite(led3, LOW);
-      digitalWrite(led1, LOW);
-      digitalWrite(led2, LOW);
-    }
-    
-  // left distance sensor value
+    if (distance <= setdis) {
+      analogWrite(motor1pin3, 0);
+      digitalWrite(motor1pin1, LOW);
+      digitalWrite(motor1pin2, LOW);
       
-      digitalWrite(trigPin2, LOW);
-      delayMicroseconds(2);
-      digitalWrite(trigPin2, HIGH);
-      delayMicroseconds(10);
-      digitalWrite(trigPin2, LOW);
-      duration2 = pulseIn(echoPin2, HIGH);
-      distance2 = (duration2/2) / 74;
-    
-    if (distance2 <= setdis) {
-      digitalWrite(led1, LOW);
-      digitalWrite(led2, HIGH);
-      digitalWrite(led3, LOW);
+      analogWrite(motor2pin3, 0);
+      digitalWrite(motor2pin1, LOW);
+      digitalWrite(motor2pin2, LOW);
     }
-    else {
-      digitalWrite(led3, LOW);
-      digitalWrite(led1, LOW);
-      digitalWrite(led2, LOW);
+    else{
+      analogWrite(motor1pin3, 255);
+      digitalWrite(motor1pin1, HIGH);
+      digitalWrite(motor1pin2, LOW);
+      
+      analogWrite(motor2pin3, 255);
+      digitalWrite(motor2pin1, HIGH);
+      digitalWrite(motor2pin2, LOW);
     }
-    
-  // right distance sensor value
-  
-    digitalWrite(trigPin3, LOW);
-    delayMicroseconds(2);
-    digitalWrite(trigPin3, HIGH);
-    delayMicroseconds(10);
-    digitalWrite(trigPin3, LOW);
-    duration3 = pulseIn(echoPin3, HIGH);
-    distance3 = (duration3/2) / 74;
-    
-    if (distance3 <= setdis) {
-      digitalWrite(led1, LOW);
-      digitalWrite(led2, LOW);
-      digitalWrite(led3, HIGH);
-    }
-    else {
-      digitalWrite(led3, LOW);
-      digitalWrite(led1, LOW);
-      digitalWrite(led2, LOW);
-    }
-    }
+}
