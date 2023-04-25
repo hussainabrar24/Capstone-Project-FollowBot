@@ -1,0 +1,3 @@
+We are trying to manage the costs of the materials as we have a project which will certainly cost more than the allowed balance. We are trying to eliminate high-cost,
+high-quality materials which will result in increasing the overall cost. As far as we know, we have some final prices for the parts that we are using in the other file 
+of this directory.
