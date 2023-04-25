@@ -15,7 +15,7 @@ The main idea will be like a human following robot but the one that we will be b
 ➼ Two front omni wheels and two rear normal tetrix wheels
 
 
-➼ Rear-wheel drive
+➼ Two wheel drive
 
 
 ➼ U-Channel stand for holding the electronics
