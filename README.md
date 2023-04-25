@@ -25,3 +25,24 @@ The main idea will be like a human following robot but the one that we will be b
 
 
 ➼ Cardboard for the base with a tetrix channel as a support
+
+
+# About Us
+
+
+# Abrar Hussain
+
+
+
+
+
+
+
+
+
+
+
+# Matthew Murray
+
+
+
