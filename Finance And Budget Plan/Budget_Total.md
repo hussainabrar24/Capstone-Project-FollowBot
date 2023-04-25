@@ -1,26 +1,26 @@
-S.No:
-Name Quantity Cost
-1. Tetrix channels 5 * $6$ 30
+S.No:    Name      Quantity  Cost
 
-2. Arduino Uno 1*$16 $ 16
+1. Tetrix channels 5 * $6  = $ 30
 
-3. Ultrasonic Sensor 1*$2 $2
+2. Arduino Uno 1*$16       = $ 16
 
-4. AndyMark Motors 2*$6 $12
+3. Ultrasonic Sensor 1*$2  =  $2
 
-5. AA Battery Pack  2*$4 $8
+4. AndyMark Motors 2*$6    = $12
 
-6. Tetrix Wheels 2*$6 $12
+5. AA Battery Pack  2*$4   = $8
 
-7. Potentiometer 1*$0.75 $0.75
+6. Tetrix Wheels 2*$6      = $12  
 
-8. LED 3*$0.50 $0.50
+7. Potentiometer 1*$0.75   = $0.75
 
-9. Motor Controller 1*$4 $4
+8. LED 3*$0.16             = $0.50
 
-10. Other Parts (Combined) $14 $14.75
+9. Motor Controller 1*$4   = $4
+
+10. Other Parts $14       = $14.75
 
 
 
-                     Total $100
+                  Combined   Total $100
 
