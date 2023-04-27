@@ -5,10 +5,12 @@ This is the project repository of our capstone project which will be a human fol
 # About Us (Group Members)
 
 # Abrar Hussain
+![unnamed (31)](https://user-images.githubusercontent.com/111074043/234903571-2429d9ea-23f3-40ba-a8c1-9c0da4447094.jpg)
 I am Abrar, an exchange student from Pakistan and a Junior at Windsor High School. I was on the robotics team this year (2022-2023) First Tech Challenge and I like 
 tweaking things and try to know how they work which brings my interest in robotics.
 
 # Matthew Murray
+
 I am Matthew, a Junior at Windsor High School and was on the robotics team of year 2021-2022 First Tech Challenge and I have great interest in technincal stuff.
 I would love to persue electrical engineering in my future.
 # Overview
@@ -36,6 +38,7 @@ The main idea will be like a human following robot but the one that we will be b
 
 
 ➼ Cardboard for the base with a tetrix channel as a support
+
 
 
 
