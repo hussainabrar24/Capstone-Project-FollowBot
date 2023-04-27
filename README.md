@@ -5,9 +5,12 @@ This is the project repository of our capstone project which will be a human fol
 # About Us (Group Members)
 
 # Abrar Hussain
-
+I am Abrar, an exchange student from Pakistan and a Junior at Windsor High School. I was on the robotics team this year (2022-2023) First Tech Challenge and I like 
+tweaking things and try to know how they work which brings my interest in robotics.
 
 # Matthew Murray
+I am Matthew, a Junior at Windsor High School and was on the robotics team of year 2021-2022 First Tech Challenge and I have great interest in technincal stuff.
+I would love to persue electrical engineering in my future.
 # Overview
 
 
