@@ -1,5 +1,13 @@
 # CAPSTONE PROJECT FOllOWBOT
 This is the project repository of our capstone project which will be a human following robot carrying a light weight.
+
+
+# About Us (Group Members)
+
+# Abrar Hussain
+
+
+# Matthew Murray
 # Overview
 
 
@@ -12,10 +20,10 @@ The main idea will be like a human following robot but the one that we will be b
 
 # How it will look
 
-➼ Two front omni wheels and two rear normal tetrix wheels
+➼ ATwo rear normal tetrix wheels
 
 
-➼ Two wheel drive
+➼ Two wheeled drive
 
 
 ➼ U-Channel stand for holding the electronics
@@ -27,22 +35,9 @@ The main idea will be like a human following robot but the one that we will be b
 ➼ Cardboard for the base with a tetrix channel as a support
 
 
-# About Us
-
-
-# Abrar Hussain
 
 
 
-
-
-
-
-
-
-
-
-# Matthew Murray
 
 
 
