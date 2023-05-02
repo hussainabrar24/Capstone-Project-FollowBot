@@ -8,7 +8,7 @@ S.No:    Name      Quantity  Cost
 
 4. AndyMark Motors 2*$6    = $12
 
-5. AA Battery Pack  2*$4   = $8
+5. AA Battery Pack  3*$4   = $12
 
 6. Tetrix Wheels 2*$6      = $12  
 
@@ -18,7 +18,7 @@ S.No:    Name      Quantity  Cost
 
 9. Motor Controller 1*$4   = $4
 
-10. Other Parts $14       = $14.75
+10. Other Parts $14       = $10.75
 
 
 
