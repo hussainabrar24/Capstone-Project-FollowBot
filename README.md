@@ -1,12 +1,6 @@
 # CAPSTONE PROJECT FOllOWBOT
 ![IMG-1774](https://user-images.githubusercontent.com/111074043/236255946-de3e6c61-0134-4746-8af7-e1f6ae0eb36c.jpg)
 
-
-
-This is the project repository of our capstone project which will be a human following robot carrying a light weight.
-
-# Date : 10th May,2023
-
 # About Us (Group Members)
 
 # Abrar Hussain
@@ -22,6 +16,8 @@ tweaking things and try to know how they work which brings my interest in roboti
 
 I am Matthew, a Junior at Windsor High School and was on the robotics team of year 2021-2022 First Tech Challenge and I have great interest in technincal stuff.
 I would love to persue electrical engineering in my future.
+
+# Date : 10th May,2023
 
 # Design Summary
 
