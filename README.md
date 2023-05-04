@@ -75,7 +75,7 @@ S.No:    Name      Quantity  Cost
 
 # How it will look
 
-➼ Two rear normal tetrix wheels
+➼ Tank drive without treads
 
 
 ➼ Two wheeled drive
@@ -88,6 +88,11 @@ S.No:    Name      Quantity  Cost
 
 
 ➼ Cardboard for the base with a tetrix channel as a support
+
+➼ Makeshift castor wheels
+
+➼ Three battery packs (36 batteries)in parallel
+
 
 
 
