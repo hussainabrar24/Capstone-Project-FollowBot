@@ -2,16 +2,13 @@
 ![IMG-1774](https://user-images.githubusercontent.com/111074043/236255946-de3e6c61-0134-4746-8af7-e1f6ae0eb36c.jpg)
 
 # About Us (Group Members)
-
-# Abrar Hussain
-
 ![unnamed (31)](https://user-images.githubusercontent.com/111074043/234903571-2429d9ea-23f3-40ba-a8c1-9c0da4447094.jpg)
 
+➼ Abrar Hussain
 I am Abrar, an exchange student from Pakistan and a Junior at Windsor High School. I was on the robotics team this year (2022-2023) First Tech Challenge and I like 
 tweaking things and try to know how they work which brings my interest in robotics.
 
-# Matthew Murray
-
+➼ Matthew Murray
 ![unnamed (32)](https://user-images.githubusercontent.com/111074043/234903840-ab4a7d63-b09f-42b3-a998-97a947ba8315.jpg)
 
 I am Matthew, a Junior at Windsor High School and was on the robotics team of year 2021-2022 First Tech Challenge and I have great interest in technincal stuff.
