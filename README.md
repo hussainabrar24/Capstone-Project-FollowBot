@@ -1,4 +1,8 @@
 # CAPSTONE PROJECT FOllOWBOT
+![IMG-1774](https://user-images.githubusercontent.com/111074043/236255946-de3e6c61-0134-4746-8af7-e1f6ae0eb36c.jpg)
+
+
+
 This is the project repository of our capstone project which will be a human following robot carrying a light weight.
 
 # Date : 10th May,2023
