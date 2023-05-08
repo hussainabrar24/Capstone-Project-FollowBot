@@ -76,7 +76,8 @@ S.No:    Name      Quantity  Cost
 ![Followbot_p2_cap (1)](https://user-images.githubusercontent.com/111074043/236868822-eb17b16e-b96b-4ad0-80c4-b79342298fd0.jpg)
 ![Followbot_p1 (1)](https://user-images.githubusercontent.com/111074043/236868823-c07ebaa6-c99b-42f6-a1ae-382c6adfd5ab.jpg)
 ![Battery_pack_holder (1)](https://user-images.githubusercontent.com/111074043/236868825-c4a57b64-a51f-467c-bab0-c60bc43f3bb0.jpg)
-![Tetrix Wheels (1)](https://user-images.githubusercontent.com/111074043/236868827-443537c5-edd3-4a00-86ea-f035b9ce6732.png)
+![231219575-db2c4bf6-2d30-4b3c-93d3-38dc965aa50b](https://user-images.githubusercontent.com/111074043/236869092-09017120-bff0-4176-b3ad-d01b24f9ff6f.jpg)
+
 
 
 
