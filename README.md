@@ -69,6 +69,8 @@ S.No:    Name      Quantity  Cost
 # lesson learned
 
 
+# Detailed Wiring Diagram
+![image](https://user-images.githubusercontent.com/90795823/236859929-432297f0-0659-4309-8dee-96a7486ae078.png)
 
 # 3D Printing
 
