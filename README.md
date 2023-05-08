@@ -77,7 +77,8 @@ S.No:    Name      Quantity  Cost
 ![image](https://user-images.githubusercontent.com/90795823/236860401-bdc86d6b-5562-4c42-9489-af6280068231.png)
 
 # 3D Printing
-![Arduino Uno](https://user-images.githubusercontent.com/111074043/236872171-9f227550-d315-48a1-8775-c4077e79ba70.png)
+![Battery Pack](https://user-images.githubusercontent.com/111074043/236872400-55b62cec-6426-4f7a-a4f8-e05f6298e5d4.png)
+
 
 
 
