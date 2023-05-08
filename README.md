@@ -38,7 +38,7 @@ All connections are soldered and there is no possibility of a short circut. All 
 
 
 # Design Evaluation
-
+Each of the requirements for this project are fufilled by the Followbot. The output display is the three LEDs that shine when a certain threshhold is reached by the potentiometer. The manual user input is fufilled via potentiometer that sets the distance that the Followbot will follow. The automatic sensor is the ultrasonic distance sensor that allows the Followbot to accuratly follow and "see" the person it is following. The actuators are the motors that move the Followbot at half the speed of smell. The programmed logic of the Followbot is the arduino uno, the brains of the Followbot. We have had many issues with the Followbot, specifically the power. We currently have three 12v battery packs wired in parellel for a grand total of 24 rechargable AA batteries. As of now, the Followbot cannot turn. At least not intentionally. We do not yet know the exact weight limit of the Followbot, all we know is the limit is somewhere between a fully loaded backpack and a human. 
 
 
 # Part List
