@@ -28,8 +28,13 @@ With the Followbot at their side students can simply walk they need to go, and t
 ![Tetrix Wheels (1)](https://user-images.githubusercontent.com/111074043/236857213-e7652622-8bce-4850-a9b1-316c9a05c92c.png)
 
 # System Details
+![image](https://user-images.githubusercontent.com/90795823/236869979-9dcb5317-9adb-48f9-8fd8-520eda2ae730.png)
+All wires are plugged into the Arduino Uno via male pin header soldered on the end of each wire, shrinkwrapped to reduce the chance of a short circut.
+All wires on the motor controller are soldered directly to the board, with shrinkwrap between each connection to reduce the chance of a short circut.
 
 
+![image](https://user-images.githubusercontent.com/90795823/236870901-8c946004-9d83-43b2-ac1b-820f0a3c4c4e.png)
+All connections are soldered and there is no possibility of a short circut. All power connections are soldered to the main breadboard, with all ground connections soldered to an external breadboard fragment. The power switch is fastened tightly into the side of the Followbot head.
 
 
 # Design Evaluation
