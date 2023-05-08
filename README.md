@@ -28,7 +28,8 @@ The principle of object detection and monitoring is based on data accepted by bo
 The main idea will be like a human following robot but the one that we will be building will carry luggage etc for the user.
 
 # System Details
-![Tetrix Wheels](https://user-images.githubusercontent.com/111074043/236271615-9bd70de8-e2c9-4dc2-8589-5670b40c22cb.jpg)
+![Tetrix Wheels (1)](https://user-images.githubusercontent.com/111074043/236857213-e7652622-8bce-4850-a9b1-316c9a05c92c.png)
+
 
 
 
