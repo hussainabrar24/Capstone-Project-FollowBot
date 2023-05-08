@@ -71,7 +71,10 @@ S.No:    Name      Quantity  Cost
 
 
 # lesson learned
-
+We faced so many issues regarding our capstone project that are listed below with the explanation of how we overcame those issues.
+1. Power And Voltage Distribution
+We had issues of using enogh batteries but the output was not equal to the projected as we were using only two motors and those were so slow. We had discussion with Mr. Brayan from Computer Science department in Colorado State University and he helped us regarding this issue. We increased the number of batteries and put them in parallel circuit which resulted in same voltage but high current which solved our issue. 
+2. 
 
 # Detailed Wiring Diagram
 ![image](https://user-images.githubusercontent.com/90795823/236860401-bdc86d6b-5562-4c42-9489-af6280068231.png)
