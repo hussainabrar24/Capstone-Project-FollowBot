@@ -72,7 +72,6 @@ S.No:    Name      Quantity  Cost
 ![image](https://user-images.githubusercontent.com/90795823/236860401-bdc86d6b-5562-4c42-9489-af6280068231.png)
 
 # 3D Printing
-![231219575-db2c4bf6-2d30-4b3c-93d3-38dc965aa50b](https://user-images.githubusercontent.com/111074043/236868811-3b686611-141b-4824-b03f-583979e3564a.jpg)
 ![Main_circuit_plate (1)](https://user-images.githubusercontent.com/111074043/236868817-8505b199-6b6d-4557-b2d5-a9d28c5ac9b4.jpg)
 ![Followbot_p2_cap (1)](https://user-images.githubusercontent.com/111074043/236868822-eb17b16e-b96b-4ad0-80c4-b79342298fd0.jpg)
 ![Followbot_p1 (1)](https://user-images.githubusercontent.com/111074043/236868823-c07ebaa6-c99b-42f6-a1ae-382c6adfd5ab.jpg)
