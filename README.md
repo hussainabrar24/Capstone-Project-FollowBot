@@ -78,7 +78,8 @@ We had issues of using enogh batteries but the output was not equal to the proje
 
 
 # Instructions to build our prototype
-![FOLLOWBOT](https://github.com/hussainabrar24/Capstone-Project-FollowBot/assets/111074043/7361e53a-d7fd-47ec-8478-eb7f74192af2)
+![FOLLOWBOT](https://github.com/hussainabrar24/Capstone-Project-FollowBot/assets/111074043/d709ac25-f8bf-4613-9409-c9344258189b)
+
 
 
 
