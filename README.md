@@ -74,7 +74,7 @@ S.No:    Name      Quantity  Cost
 We faced so many issues regarding our capstone project that are listed below with the explanation of how we overcame those issues.
 1. Power And Voltage Distribution
 We had issues of using enogh batteries but the output was not equal to the projected as we were using only two motors and those were so slow. We had discussion with Mr. Brayan from Computer Science department in Colorado State University and he helped us regarding this issue. We increased the number of batteries and put them in parallel circuit which resulted in same voltage but high current which solved our issue. 
-2. 
+2. The coding wasn't really an issue, I was able to pull code I wrote in the intro class and meld it with our needs. I assembled the code like a four year old playing with loose LEGOs. I guess one issue we had was the lights on top of the Followbot. The first light wouldn't turn off... The code never said to turn it off... Whoopsees.
 
 
 # Instructions to build our prototype
