@@ -74,7 +74,9 @@ S.No:    Name      Quantity  Cost
 We faced so many issues regarding our capstone project that are listed below with the explanation of how we overcame those issues.
 1. Power And Voltage Distribution
 We had issues of using enogh batteries but the output was not equal to the projected as we were using only two motors and those were so slow. We had discussion with Mr. Brayan from Computer Science department in Colorado State University and he helped us regarding this issue. We increased the number of batteries and put them in parallel circuit which resulted in same voltage but high current which solved our issue. 
-2. The coding wasn't really an issue, I was able to pull code I wrote in the intro class and meld it with our needs. I assembled the code like a four year old playing with loose LEGOs. I guess one issue we had was the lights on top of the Followbot. The first light wouldn't turn off... The code never said to turn it off... Whoopsees.
+2. Budget Plan
+We had to squeeze in out parts according to our budeget, if we had more budget we could scale it up more icreasing the percision of how it should be working and for that we need more parts, which results in more budget. 
+3. The coding wasn't really an issue, we were able to pull code that Matthew wrote in the intro class and meld it with our needs. He assembled the code like a four year old playing with loose LEGOs. He faced one issue one which was the lights on top of the Followbot. The first light wouldn't turn off... The code never said to turn it off... Whoopsees.
 
 
 # Instructions to build our prototype
@@ -87,6 +89,7 @@ We had issues of using enogh batteries but the output was not equal to the proje
 ![image](https://user-images.githubusercontent.com/90795823/236860401-bdc86d6b-5562-4c42-9489-af6280068231.png)
 
 # 3D Printing
+Total Filament Used in Grams = 182g
 ![Battery Pack](https://user-images.githubusercontent.com/111074043/236872400-55b62cec-6426-4f7a-a4f8-e05f6298e5d4.png)
 
 # Programming
@@ -98,7 +101,7 @@ We had issues of using enogh batteries but the output was not equal to the proje
 
 
 For runnable code, see the programming file.
-
+https://github.com/hussainabrar24/Capstone-Project-FollowBot/blob/eae541fdf17a4008bf8139245ac5bdcd08a28d38/Programming/Capstone_Project_Code.ino
 
 
 
