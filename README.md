@@ -125,8 +125,9 @@ https://github.com/hussainabrar24/Capstone-Project-FollowBot/blob/eae541fdf17a40
 
 ➼ Three battery packs (36 batteries)in parallel
 
+# Poster Presentation
 
-
+![Poster_Followbot](https://github.com/hussainabrar24/Capstone-Project-FollowBot/assets/111074043/4f3516b8-7bb3-4ded-94c2-b4128c6a9f5e)
 
 
 
